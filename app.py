@@ -94,7 +94,7 @@ with gr.Blocks() as iface:
         )
         output_size = gr.Dropdown(
             label="출력 이미지 크기",
-            choices=[1024, 2048],
+            choices=[1024, 2048, 4096],
             value=1024
         )
 
